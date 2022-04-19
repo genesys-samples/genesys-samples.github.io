@@ -1,13 +1,17 @@
-﻿/* Fonts */
+﻿//* Fonts */
 @font-face{
-	font-family:Roboto-Regular;
-	src:url('../../fonts/Roboto-Regular.ttf') format("ttf");
+	font-family:AmazonEmber;
+	src:url('../../fonts/AmazonEmber_W_Rg.woff2') format("woff2"),
+    url('../../fonts/AmazonEmber_W_Rg.woff') format("woff"),
+    url('../../fonts/AmazonEmber_W_Rg.eot') format("eot");
 	font-weight:400;
 	font-style:normal
 }    
 @font-face{
-    font-family:Roboto-Bold;
-    src:url('../../fonts/Roboto-Bold.ttf') format("ttf");
+    font-family:AmazonEmberBold;
+    src:url('../../fonts/AmazonEmber_W_Bd.woff2') format("woff2"),
+    url('../../fonts/AmazonEmber_W_Bd.woff2') format("woff"),
+    url('../../fonts/AmazonEmber_W_Bd.eot') format("eot");
     font-weight:400;
     font-style:normal
 }
@@ -52,22 +56,21 @@
 @-moz-document url-prefix() {
     .rowNew {
         display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    
-    margin-right: -15px;
-    margin-left: -15px;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: -15px;
+        margin-left: -15px;
     }
 }
 
 .rowNew {
     display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--ms-flex-wrap: wrap;
-flex-wrap: nowrap;
-margin-right: -15px;
-margin-left: -15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 /* Base styles */
 html, body {
@@ -75,7 +78,7 @@ html, body {
 }
 
 body {
-    font-family: Roboto-Regular, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmber, Helvetica, Arial, 'Sans-Serif';
     font-size: 16px;
     font-weight:normal;
     line-height: 1.4;
@@ -99,7 +102,7 @@ a, a:hover, a:focus, a:active {
 /* Footer styles */
 .footer {
     background-color: #dcdcdc;
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     padding: 15px 0;
     position: absolute;
     bottom: 0;
@@ -113,10 +116,10 @@ a, a:hover, a:focus, a:active {
 
 /* Titles */
 .title-1, .title-2, .title-4 {
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
 }
 .title-3 {
-    font-family: Roboto-Regularr, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmber, Helvetica, Arial, 'Sans-Serif';
 }
 .title-1 {
     font-size: 40px;
@@ -137,7 +140,7 @@ a, a:hover, a:focus, a:active {
 }
 
 /* Logo */
-img.aws-logo {
+img.genesys-logo {
     height: 45px;
     float: left;
     margin: 11px 20px 11px 0;
@@ -167,7 +170,7 @@ img.aws-logo {
     color: var(--primary-color);
 }
 .hightlight-section-content h6 {
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     margin-bottom: 0;
 }
 .hightlight-section-content p {
@@ -197,7 +200,7 @@ img.aws-logo {
     color:#ccc;
 }
 .btn-link {
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     padding-left: 0; 
     padding-right: 0; 
 }
@@ -208,7 +211,7 @@ img.aws-logo {
 }
 .btn-standard {
     color:#fff;
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     padding:5px 25px;
     background: #f67c1b; /* Old browsers */
     background: -moz-linear-gradient(top, #f67c1b 1%, #e15500 100%); /* FF3.6-15 */
@@ -231,7 +234,7 @@ img.aws-logo {
 }
 a.btn-grey {
     font-size: 16px;
-    font-family: Roboto-Regular, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmber, Helvetica, Arial, 'Sans-Serif';
     color: #787878 ;
     border: 1px solid #787878;
     border-radius: 24px;
@@ -254,7 +257,7 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
 /* navigation styles */
 .nav-item {
     font-size: 16px;
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     color: #fff;
     border-bottom: 3px solid transparent;
     padding: 0px 7px 0px 7px;
@@ -336,7 +339,6 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
     cursor: pointer;
 }
 
-
 /* styles for the code snippet layout */
 .code-snippet-light {
     background-color: #fff;
@@ -363,7 +365,6 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
 .code-snippet-light .fa-copy:active:before, .code-snippet-light .fa-copy:hover:before {
     font-weight: 900;
 }
-
 
 /* styles for the progress bar */
 .module-progress-bar {
@@ -529,7 +530,6 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
     font-size: 16px;
 }
 
-
 /* Styles for the Filter on the Explore page */
 .filter-section, .filter-section a {
     font-size: 16px;
@@ -576,7 +576,7 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
 
 /* Pagination */
 .custom-pagination {
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     text-transform: uppercase;
 }
 .custom-pagination .page-link {
@@ -630,7 +630,7 @@ a.btn-grey:hover, a.btn-grey:active, a.btn-grey.active {
 
 .grid-item .card-body {
     font-size: 16px;
-    font-family: Roboto-Bold, Helvetica, Arial, 'Sans-Serif';
+    font-family: AmazonEmberBold, Helvetica, Arial, 'Sans-Serif';
     color: var(--primary-color);
     padding: 13px 15px;
     white-space: nowrap;
@@ -673,7 +673,6 @@ ul.list-section {
     }
 }
 
-
 @media only screen and (min-width : 992px){
     .grid-item .card-img-top {
         max-height: 210px;
@@ -689,9 +688,6 @@ ul.list-section {
         min-height: 430px;
     }
 }
-
-
-
 
 .custom-dropdown-open {
     position: absolute;
