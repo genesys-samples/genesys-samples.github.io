@@ -1,0 +1,49 @@
+<!-- header section-->
+<header role="banner" class="header">
+  <div class="container">
+    <div class="rowNew ">
+      <div class="col-auto mr-auto">
+        <img class="navbar-brand d-flex align-items-center aws-logo" src="/images/GEN_logo.svg"
+          alt="genesys-logo" />
+        <nav class="nav spacer-inner-tb-20" role="navigation">
+          <a class="nav-item   " href="/" role="link"> Home </a>
+          <a class="nav-item " href="/categories/fundamentals/" role="link"> Fundamentals </a>
+          <a class="nav-item " href="/categories/developer/" role="link"> Developer </a>
+
+          <!--a class="nav-item" href="explore.html" role="link"> Explore </a-->
+        </nav>
+        
+      </div>
+      
+      {{ if not .Site.Params.disableSearch }}
+        {{ partial "search.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  
+</header>
+
+
+<!-- hero image section -->
+<section class="hero-image" role="banner">
+  <!-- hero image container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 order-12 order-sm-1 col-sm-8">
+        <h1 class="title-1 text-blue" role="heading">Experience as a Service℠</h1>
+        <p class="text-md-white">
+          This website is a dedicated resource for curated workshops and training Modules
+          created by the teams at Genesys. The workshops will teach you how to build the 
+          foundation of an empathetic customer experience — delivered through Experience 
+          as a Service℠. While it’s enabled by technology, Experience as a Service doesn’t 
+          happen through technology alone. It’s also an engagement you make across your 
+          business for your employees’ good, for your customers’ good and for the good of 
+          your business.
+        </p>
+      </div>
+      <div class="col-12 order-1 order-sm-12 col-sm-4 text-center">
+        <img src="/images/banner/Genesys-Gear.svg" alt="About" class="image-icon" role="img" />
+      </div>
+    </div>
+  </div>
+</section>

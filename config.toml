@@ -1,0 +1,12 @@
+baseURL = "https://workshop.live.genesys.com"
+languageCode = "en-us"
+title = "Genesys Experience as a Service"
+theme = "modernize"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "RSS"]

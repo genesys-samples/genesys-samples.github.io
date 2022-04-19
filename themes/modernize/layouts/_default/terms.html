@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{- partial "highlights.html" . -}}
+
+<!-- main content section -->
+<main role="main" class="bg-gray">
+    <!-- workshops section-->
+    <section class="spacer-inner-tb-30">
+        <div class="container">
+            <div class="row">
+                <!-- heading-->
+
+                <div class="col-12 col-xl-4 workshops-title">
+                    <h1 role="heading" class="title-1 underline-orange d-inline-block spacer-mob-heading"
+                        role="heading">
+                        {{ .Title }}</h1>
+                </div>
+                
+            </div>
+            <!--workshop items container-->
+            <div class="workshop-terms">
+                <ul>
+                    {{ range .Data.Terms.Alphabetical }}
+                    <h4 class="title-3 color-blue"><li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li></h4>
+                    {{ end }}
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- featured modules section-->
+
+</main>
+
+
+{{ end }}
