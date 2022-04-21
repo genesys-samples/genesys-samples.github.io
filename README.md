@@ -1,3 +1,7 @@
+[![license](https://img.shields.io/github/license/genesys-samples/genesys-samples.github.io.svg)](https://github.com/genesys-samples/genesys-samples.github.io/blob/main/LICENSE)
+![Build](https://img.shields.io/github/workflow/status/genesys-samples/genesys-samples.github.io/GitHub%20Pages)
+
+
 # Genesys Experience as a Service Hub
 
 This repository contains the template for workshop content associated with [Genesys Samples](https://github.com/genesys-samples) GitHub organization. We are leveraging the open-source framework, [Hugo](https://gohugo.io/), as our static site generator and [Learn](https://learn.netlify.app/) as our theme.

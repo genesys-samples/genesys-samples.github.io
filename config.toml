@@ -1,7 +1,12 @@
-baseURL = "https://workshop.live.genesys.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Genesys Experience as a Service"
 theme = "modernize"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= "false"
+uglyurls = "true"
+relativeURLs = true
+enableEmoji = true
 
 [taxonomies]
   category = "categories"
