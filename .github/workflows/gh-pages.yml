@@ -42,5 +42,6 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
+            az storage blob delete-batch --account-name 'genesyssamples' --source '$web' --pattern 'sitemap.xml'
             az storage blob delete-batch --account-name 'genesyssamples' --source '$web' --pattern '[!workshops]*'
             az storage blob upload-batch --account-name 'genesyssamples' --source ./public --destination '$web'
