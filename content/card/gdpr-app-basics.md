@@ -13,7 +13,7 @@ categories: [Developer]
 tags: [Cloud, GDPR]
 
 # Full URL to the workshop
-workshop_url: https://genesys-samples.github.io/gdpr-app-basics/
+workshop_url: https://workshop.genesys.com/gdpr-app-basics/
 ---
 
 Learn how to create your very own GDPR client application and embed it into your Genesys Cloud organization

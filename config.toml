@@ -1,4 +1,4 @@
-baseURL = "https://genesys-samples.github.io/"
+baseURL = "https://workshop.genesys.com/"
 languageCode = "en-us"
 title = "Genesys Experience as a Service"
 theme = "modernize"

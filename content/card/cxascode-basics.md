@@ -13,7 +13,7 @@ categories: [Fundmanetals, Developer]
 tags: [Terraform, Lambda, Comprehend, Architect, Flows, Cloud]
 
 # Full URL to the workshop
-workshop_url: https://genesys-samples.github.io/cxAsCodeDevlab/
+workshop_url: https://workshop.genesys.com/cxAsCodeDevlab/
 ---
 
 Learn how deploy a Genesys Cloud Architect flow and its dependent objects using Archy and CX as Code to manage Architect flows and dependent objects as plain text files that can be checked into source control.
