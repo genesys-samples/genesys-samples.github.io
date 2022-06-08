@@ -13,7 +13,7 @@ categories: [Fundamentals]
 tags: [Multicloud, CX]
 
 # Full URL to the workshop
-workshop_url: https://workshop.genesys.com/multicx-basics/
+workshop_url: https://workshop.genesys.com/workshops/multicx-basics/
 ---
 
 Learn how to deploy and configure Genesys Multicloud CX™ with a step-by-step guide and automated provisioning

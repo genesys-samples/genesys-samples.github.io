@@ -13,7 +13,7 @@ categories: [Fundamentals]
 tags: [Cloud, Integrations]
 
 # Full URL to the workshop
-workshop_url: https://workshop.genesys.com/gride-demo/
+workshop_url: https://workshop.genesys.com/workshops/gride-demo/
 ---
 
 Learn how to setup & configure Genesys Cloud CX™️
