@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Genesys Multicloud CX™
+title: Genesys Multicloud CX™ Harbor Tour
 level: 200
 duration: 4 hours
 date: 2020-06-30
