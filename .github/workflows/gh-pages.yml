@@ -25,21 +25,16 @@ jobs:
 
       - name: Build
         run: hugo
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
           
       - name: Login via AZ module
         uses: azure/login@v1
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           creds: ${{secrets.GENESYS_SAMPLES_SP}}
           
       - name: Upload Hugo to Azure Blob
         uses: azure/CLI@v1
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           inlineScript: |
             az storage blob delete-batch --account-name 'genesyssamples' --source '$web' --pattern 'sitemap.xml'
