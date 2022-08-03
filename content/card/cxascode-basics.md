@@ -7,10 +7,10 @@ image: /images/workshop/Genesys-workshop-Code.png
 description: Learn how to deploy a Genesys Cloud Architect flow and its dependent objects
 
 # categories is the overall themes covered. 
-categories: [Fundmanetals, Developer]
+categories: [GenesysCloudCX]
 
 # tags are the technologies covered in the workshop
-tags: [Terraform, Lambda, Comprehend, Architect, Flows, Cloud]
+tags: [DeveloperCenter, Administrative, Code, Architect, IVR]
 
 # Full URL to the workshop
 workshop_url: https://workshop.genesys.com/workshops/cxAsCodeDevlab/
