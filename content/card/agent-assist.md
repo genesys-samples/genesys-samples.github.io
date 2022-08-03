@@ -7,10 +7,10 @@ image: /images/workshop/Genesys-workshop-CX.png
 description: See the power of Genesys Cloud CX and Google CCAI. Set up both integrations with Google Agent Assist and Google DialogFlow CX into your own Genesys Cloud CX instance.
 
 # categories is the overall themes covered 
-categories: [Fundamentals, Google Cloud]
+categories: [GenesysCloudCX, AppFoundry]
 
 # tags are the technologies covered in the workshop
-tags: [Cloud, Integrations, AI, Bots, Agent Assist]
+tags: [DeveloperCenter, GoogleCloud, Integration, AI, Agent Assist]
 
 # Full URL to the workshop
 workshop_url: https://workshop.genesys.com/workshops/DialogFlowCXandAgentAssist/
