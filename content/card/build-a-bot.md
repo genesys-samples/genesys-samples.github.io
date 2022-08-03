@@ -7,10 +7,10 @@ image: /images/workshop/Genesys-workshop-Code.png
 description: Learn how to Build a Bot using Genesys Dialog Engine!
 
 # categories is the overall themes covered. 
-categories: [Developer]
+categories: [GenesysCloudCX]
 
 # tags are the technologies covered in the workshop
-tags: [Cloud, GDPR]
+tags: [Fundamentals, Bots, Architect, AI]
 
 # Full URL to the workshop
 workshop_url: https://workshop.genesys.com/workshops/Build-a-Bot/
