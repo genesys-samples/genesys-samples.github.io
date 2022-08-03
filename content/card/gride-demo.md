@@ -7,10 +7,10 @@ image: /images/workshop/Genesys-workshop-CX.png
 description: Learn how to setup & configure Genesys Cloud CX™️ 
 
 # categories is the overall themes covered. 
-categories: [Fundamentals]
+categories: [GenesysCloudCX]
 
 # tags are the technologies covered in the workshop
-tags: [Cloud, Integrations]
+tags: [Fundamentals, Administrative, Telephony, Interactions, Architect]
 
 # Full URL to the workshop
 workshop_url: https://workshop.genesys.com/workshops/gride-demo/
