@@ -3,7 +3,7 @@ title: Genesys Multicloud CX™ Harbor Tour
 level: 200
 duration: 4 hours
 date: 2020-06-30
-image: /images/workshop/Genesys-workshop-MultiCX.png
+image: /images/workshop/Genesys-workshop-HarborTour.png
 description: Learn how to deploy and configure Genesys Multicloud CX™
 
 # categories is the overall themes covered. 

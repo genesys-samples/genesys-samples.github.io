@@ -3,7 +3,7 @@ title: Automation with CX as Code
 level: 300
 duration: 4 hours
 date: 2020-05-31
-image: /images/workshop/Genesys-workshop-Code.png
+image: /images/workshop/Genesys-workshop-CXasCode.png
 description: Learn how to deploy a Genesys Cloud Architect flow and its dependent objects
 
 # categories is the overall themes covered. 
