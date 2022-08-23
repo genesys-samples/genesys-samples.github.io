@@ -3,7 +3,7 @@ title: Genesys Cloud CX™️ Channel Setup
 level: 100
 duration: 4 hours
 date: 2020-05-31
-image: /images/workshop/Genesys-workshop-CX.png
+image: /images/workshop/Genesys-workshop-ChannelSetup.png
 description: Learn how to setup & configure Genesys Cloud CX™️ 
 
 # categories is the overall themes covered. 
