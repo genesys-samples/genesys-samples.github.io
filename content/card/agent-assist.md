@@ -1,5 +1,5 @@
 ---
-title: Genesys Cloud CX™️ & Google
+title: Genesys Cloud CX™️ & Google Cloud
 level: 300
 duration: 2 hours
 date: 2020-06-08
