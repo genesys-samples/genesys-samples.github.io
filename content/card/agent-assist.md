@@ -3,7 +3,7 @@ title: Genesys Cloud CX™️ & Google Cloud
 level: 300
 duration: 2 hours
 date: 2020-06-08
-image: /images/workshop/Genesys-workshop-DialogFlowCxAgentAssist.png
+image: /images/workshop/Genesys-workshop-DialogFlowCCAI.png
 description: See the power of Genesys Cloud CX and Google CCAI. Set up both integrations with Google Agent Assist and Google DialogFlow CX into your own Genesys Cloud CX instance.
 
 # categories is the overall themes covered 
