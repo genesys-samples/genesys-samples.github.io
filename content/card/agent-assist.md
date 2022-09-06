@@ -16,4 +16,4 @@ tags: [DeveloperCenter, GoogleCloud, Integration, AI, Agent Assist]
 workshop_url: https://workshop.genesys.com/workshops/DialogFlowCXandAgentAssist/
 ---
 
-See the power of Genesys Cloud CX and Google CCAI. Set up both integrations with Google Agent Assist and Google DialogFlow CX into your own Genesys Cloud CX instance.
+See the power of Genesys Cloud CX and Google Google CCAI. Set up both integrations with Google Agent Assist and Google Dialogflow CX into your own Genesys Cloud CX instance.
