@@ -9,6 +9,12 @@
           <a class="nav-item   " href="/" role="link"> Home </a>
           <a class="nav-item " href="/categories/genesyscloudcx/" role="link"> Genesys Cloud CX </a>
           <a class="nav-item " href="/categories/appfoundry/" role="link"> AppFoundry </a>
+          <a class="nav-item " > 
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+              <option value="">Select Language</option>
+              <option value="http://localhost:1313/">English</option>
+              <option value="http://localhost:1313/sp/">Spanish</option>
+            </select> </a>
 
           <!--a class="nav-item" href="explore.html" role="link"> Explore </a-->
         </nav>

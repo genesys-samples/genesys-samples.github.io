@@ -1,10 +1,10 @@
 ---
-title: Create and host your own GDPR client application
+title: Cree y aloje su propia GDPR client application
 level: 200
 duration: 2 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-GDPR.png
-description: Learn how to create your very own GDPR client application and embed it into your Genesys Cloud organization.
+description: Aprenda a crear su propia aplicación de cliente GDPR e insértela en su organización de Genesys Cloud.
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]
@@ -16,4 +16,4 @@ tags: [Developer, GDPR, Code, Integration]
 workshop_url: https://workshop.genesys.com/workshops/gdpr-app-basics/
 ---
 
-Learn how to create your very own GDPR client application and embed it into your Genesys Cloud organization.
+Aprenda a crear su propia aplicación de cliente GDPR e insértela en su organización de Genesys Cloud.
