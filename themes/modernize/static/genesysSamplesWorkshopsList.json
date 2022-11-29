@@ -124,27 +124,6 @@
     },
     {
         "attributes": {
-            "title": "Genesys Multicloud CX™ Harbor Tour",
-            "level": 200,
-            "duration": "4 hours",
-            "image": "https://workshop.genesys.com/images/workshop/Genesys-workshop-HarborTour.png",
-            "description": "Learn how to deploy and configure Genesys Multicloud CX™ with a step-by-step guide and automated provisioning",
-            "platform": "MultiCloud",
-            "categories": [
-                "MultiCloudCX"
-            ],
-            "tags": [
-                "Fundamentals",
-                "GDemo",
-                "Interactions",
-                "Analytics",
-                "Designer"
-            ],
-            "workshop_url": "https://workshop.genesys.com/workshops/multicx-basics/"
-        }
-    },
-    {
-        "attributes": {
             "title": "Genesys Cloud CX and External Routing of Salesforce Chats",
             "level": 300,
             "duration": "2 hours",
