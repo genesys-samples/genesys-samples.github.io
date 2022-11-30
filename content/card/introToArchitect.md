@@ -4,7 +4,7 @@ level: 100
 duration: 2 hours
 date: 2022-11-30
 image: /images/workshop/GCCXIntroArchitect.png
-description: Learn about our Salesforce partnership and how to configure Salesforce Omni-Channel chats to route through the Genesys Cloud CX ACD engine.
+description: An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]
@@ -16,4 +16,4 @@ tags: [Fundamentals, Architect, IVR]
 workshop_url: https://workshop.genesys.com/workshops/Architect-Basics-101/
 ---
 
-Learn about our Salesforce partnership and how to configure Salesforce Omni-Channel chats to route through the Genesys Cloud CX ACD engine.
+An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
