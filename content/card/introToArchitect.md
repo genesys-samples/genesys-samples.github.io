@@ -1,5 +1,5 @@
 ---
-title: Genesys Cloud CX: Intro To Architect
+title: Genesys Cloud CX Intro To Architect
 level: 100
 duration: 2 hours
 date: 2022-11-30
