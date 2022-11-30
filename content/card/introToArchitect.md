@@ -1,19 +1,19 @@
 ---
-title: Genesys Cloud CX: Intro To Architect
-level: 100
+title: Genesys Cloud CX and External Routing of Salesforce Chats
+level: 300
 duration: 2 hours
-date: 2022-11-30
-image: /images/workshop/GCCXIntroArchitect.png
-description: An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
+date: 2022-09-09
+image: /images/workshop/Genesys-workshop-SalesforceERChat.png
+description: Learn about our Salesforce partnership and how to configure Salesforce Omni-Channel chats to route through the Genesys Cloud CX ACD engine.
 
-# categories is the overall themes covered. 
+# categories is the overall themes covered 
 categories: [GenesysCloudCX]
 
 # tags are the technologies covered in the workshop
-tags: [Fundamentals, Architect, IVR]
+tags: [Salesforce, Integration, Administrative]
 
 # Full URL to the workshop
-workshop_url: https://workshop.genesys.com/workshops/Architect-Basics-101/
+workshop_url: https://workshop.genesys.com/workshops/SalesForceExternalRouting/
 ---
 
-An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
+Learn about our Salesforce partnership and how to configure Salesforce Omni-Channel chats to route through the Genesys Cloud CX ACD engine.
