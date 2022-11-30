@@ -13,7 +13,7 @@ categories: [GenesysCloudCX]
 tags: [Fundamentals, Architect, IVR]
 
 # Full URL to the workshop
-workshop_url: [https://workshop.genesys.com/workshops/cxAsCodeDevlab/](https://workshop.genesys.com/workshops/Architect-Basics-101/)
+workshop_url: https://workshop.genesys.com/workshops/Architect-Basics-101/
 ---
 
 An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
