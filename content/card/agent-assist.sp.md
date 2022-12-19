@@ -13,7 +13,7 @@ categories: [GenesysCloudCX, AppFoundry]
 tags: [DeveloperCenter, GoogleCloud, Integration, AI, Agent Assist]
 
 # Full URL to the workshop
-workshop_url: https://workshop.genesys.com/workshops/DialogFlowCXandAgentAssist/
+workshop_url: https://workshop.genesys.com/workshops/DialogFlowCXandAgentAssist/sp/
 ---
 
 Vea el poder de Genesys Cloud CX y Google Cloud CCAI. Configure ambas integraciones con Agent Assist y Dialogflow CX en su propia instancia de Genesys Cloud CX.

@@ -13,7 +13,7 @@ categories: [GenesysCloudCX]
 tags: [DeveloperCenter, Administrative, Code, APIs]
 
 # Full URL to the workshop
-workshop_url: https://workshop.genesys.com/workshops/DataActionsWorkshop/
+workshop_url: https://workshop.genesys.com/workshops/DataActionsWorkshop/sp/
 ---
 
 ¡Aprenda a usar Acciones de datos para una participación adicional en nuestros productos!
