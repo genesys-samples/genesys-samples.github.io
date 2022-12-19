@@ -9,6 +9,12 @@
           <a class="nav-item   " href="/" role="link"> Home </a>
           <a class="nav-item " href="/categories/genesyscloudcx/" role="link"> Genesys Cloud CX </a>
           <a class="nav-item " href="/categories/appfoundry/" role="link"> AppFoundry </a>
+          <a class="nav-item " > 
+            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+              <option value="">Select Language</option>
+              <option value="http://localhost:1313/">English</option>
+              <option value="http://localhost:1313/sp/">Spanish</option>
+            </select> </a>
 
           <!--a class="nav-item" href="explore.html" role="link"> Explore </a-->
         </nav>
@@ -29,8 +35,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 order-12 order-sm-1 col-sm-8">
-        <h1 class="title-1 text-blue" role="heading">Experience as a Service℠</h1>
-        <p class="text-md-white">
+        <h1 class="title-1 text-blue" role="heading" id="headlineText">Experience as a Service℠</h1>
+        <p class="text-md-white" id="headerParagraphText">
           This website is a dedicated resource for curated workshops and training Modules
           created by the teams at Genesys. The workshops will teach you how to build the 
           foundation of an empathetic customer experience — delivered through Experience 
@@ -46,3 +52,18 @@
     </div>
   </div>
 </section>
+
+<script type="text/javascript">
+  // Get URL
+  var url = window.location.href;
+  // Get DIV
+  var headerParagraphText = document.getElementById('headerParagraphText');
+  var headlineText = document.getElementById('headlineText');
+  // Check if URL contains the keyword
+  if (url.search('sp') > 0) {
+    // Display the message
+    //msg.style.visibility = "hidden";
+    headerParagraphText.textContent = "Este sitio web es un recurso exclusivo para talleres seleccionados y módulos de capacitación. creado por los equipos de Genesys. Los talleres le enseñarán cómo construir ella base de una experiencia de cliente empática, entregada a través de Experience como servicio℠. Si bien está habilitado por la tecnología, Experience as a Service no suceder solo a través de la tecnología. También es un compromiso que haces a través de tu negocio por el bien de sus empleados, por el bien de sus clientes y por el bien de tu negocio.";
+    headlineText.textContent = "Experiencia como servicio℠";
+  }
+</script>
