@@ -1,5 +1,5 @@
 ---
-title: Introducción al Predictive Engagement
+title: Introducción a Predictive Engagement
 level: 100
 duration: 2 hours
 date: 2022-12-19
