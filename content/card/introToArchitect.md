@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2022-11-30
 image: /images/workshop/GCCXIntroArchitect.png
 description: An introductory course into the Genesys Cloud CX Architect tool. You will get an understanding of key concepts, capabilities, and build your first inbound flow.
+locale: en
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]

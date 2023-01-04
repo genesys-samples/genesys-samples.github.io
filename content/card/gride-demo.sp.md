@@ -5,6 +5,7 @@ duration: 4 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-ChannelSetup.png
 description: Aprenda a instalar y configurar Genesys Cloud CX™️
+locale: es
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]

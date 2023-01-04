@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2022-09-09
 image: /images/workshop/Genesys-workshop-SalesforceERChat.png
 description: Learn about our Salesforce partnership and how to configure Salesforce Omni-Channel chats to route through the Genesys Cloud CX ACD engine.
+locale: en
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]

@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2020-08-02
 image: /images/workshop/Genesys-workshop-DialogFlowBAB.png
 description: ¡Aprenda a crear un bot con Genesys Dialog Engine!
+locale: es
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]
