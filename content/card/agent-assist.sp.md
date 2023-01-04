@@ -5,7 +5,7 @@ duration: 2 hours
 date: 2020-06-08
 image: /images/workshop/Genesys-workshop-DialogFlowCCAI.png
 description: Vea el poder de Genesys Cloud CX y Google Cloud CCAI. Configure ambas integraciones con Agent Assist y Dialogflow CX en su propia instancia de Genesys Cloud CX.
-locale: es-ES
+locale: es
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX, AppFoundry]
