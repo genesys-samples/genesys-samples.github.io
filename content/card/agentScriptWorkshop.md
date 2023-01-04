@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2022-12-08
 image: /images/workshop/Genesys-workshop-AgentScript.png
 description: Learn how to build and leverage agent scripts to empower agents to create meaningful interactions.
+locale: en
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]

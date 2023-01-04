@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-DataAction.png
 description: ¡Aprenda a usar Acciones de datos para una participación adicional en nuestros productos!
+locale: es
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]

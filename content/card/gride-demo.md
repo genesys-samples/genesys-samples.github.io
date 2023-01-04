@@ -4,7 +4,8 @@ level: 100
 duration: 4 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-ChannelSetup.png
-description: Learn how to setup & configure Genesys Cloud CX™️ 
+description: Learn how to setup & configure Genesys Cloud CX™️
+locale: en
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]

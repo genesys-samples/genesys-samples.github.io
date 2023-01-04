@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2022-09-09
 image: /images/workshop/GCCXPredictiveEngagement.png
 description: A self-guided course that covers the basic knowledge needed to understand and explain "What is Predictive Engagement?" and how it will impact customer and agent experience.
+locale: en
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]

@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2022-12-19
 image: /images/workshop/GCCXPredictiveEngagement.png
 description: Un curso autoguiado que cubre los conocimientos básicos necesarios para comprender y explicar "¿Qué es Predictive Engagement?" y cómo afectará la experiencia del cliente y del agente.
+locale: es
 
 # categories is the overall themes covered 
 categories: [GenesysCloudCX]

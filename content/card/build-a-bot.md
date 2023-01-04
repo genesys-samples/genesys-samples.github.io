@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2020-08-02
 image: /images/workshop/Genesys-workshop-DialogFlowBAB.png
 description: Learn how to Build a Bot using Genesys Dialog Engine!
+locale: en
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]

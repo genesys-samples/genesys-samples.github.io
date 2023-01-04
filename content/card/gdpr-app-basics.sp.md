@@ -5,6 +5,7 @@ duration: 2 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-GDPR.png
 description: Aprenda a crear su propia aplicación de cliente GDPR e intégrela en su organización de Genesys Cloud
+locale: es
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]

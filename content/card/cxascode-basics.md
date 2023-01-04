@@ -5,6 +5,7 @@ duration: 4 hours
 date: 2020-05-31
 image: /images/workshop/Genesys-workshop-CXasCode.png
 description: Learn how to deploy a Genesys Cloud Architect flow and its dependent objects
+locale: en
 
 # categories is the overall themes covered. 
 categories: [GenesysCloudCX]
