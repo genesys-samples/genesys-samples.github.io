@@ -28,3 +28,8 @@ languageName = "English"
 title = "Documentación para el tema Hugo Learn"
 weight = 2
 languageName = "Español"
+
+[Languages.pt]
+title = "Documentação para Hugo Learn Theme"
+weight = 3
+languageName = "Português"
