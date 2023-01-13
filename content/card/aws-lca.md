@@ -1,10 +1,10 @@
 ---
-title: AWS Live Call Analytics/Q&A Bot using Genesys AudioHook Monitor
+title: AWS Live Call Analytics/QnA Bot using Genesys AudioHook Monitor
 level: 300
 duration: 2 hours
 date: 2023-01-13
 image: /images/workshop/AWS_LCA-tileImage.png
-description: This workshop will guide users through integrating Genesys AudioHook Monitor with an AWS CloudFormation stack to use live call analytics and Q&A Bot.
+description: This workshop will guide users through integrating Genesys AudioHook Monitor with an AWS CloudFormation stack to use live call analytics and QnA Bot.
 locale: en
 
 # categories is the overall themes covered 
@@ -17,4 +17,4 @@ tags: [AWS, Integrations, Analytics, AgentAssist]
 workshop_url: https://workshop.genesys.com/workshops/AWS_LCA/
 ---
 
-This workshop will guide users through integrating Genesys AudioHook Monitor with an AWS CloudFormation stack to use live call analytics and Q&A Bot.
+This workshop will guide users through integrating Genesys AudioHook Monitor with an AWS CloudFormation stack to use live call analytics and QnA Bot.
