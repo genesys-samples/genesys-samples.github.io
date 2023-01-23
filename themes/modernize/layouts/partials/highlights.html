@@ -63,4 +63,12 @@
       availableText.textContent = 'Disponible globalmente sin restricciones y compatible con dispositivos móviles';
 
     }
+    else if(url.search('pt') > 0) {
+      workshopsNumberText.textContent = '{{ len (where .Site.RegularPages "Section" "==" "card") }} workshops e crescendo';
+      workshopsNumberTextDesc.textContent = 'Novos workshops e conteúdos adicionados com frequência';
+      createdByHeadline.textContent = 'Criado por especialistas';
+      createdByText.textContent = 'Criado por especialistas da área da Genesys';
+      availableHeadline.textContent = 'Disponível para acesso em qualquer lugar';
+      availableText.textContent = 'Disponível globalmente sem restrições e compatível com dispositivos móveis';
+    }
   </script>
