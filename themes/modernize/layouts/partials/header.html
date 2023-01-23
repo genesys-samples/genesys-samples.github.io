@@ -14,6 +14,7 @@
               <option value="">Select Language</option>
               <option value="/">English</option>
               <option value="/sp/">Spanish</option>
+              <option value="/pt/">Portuguese</option>
             </select> </a>
 
           <!--a class="nav-item" href="explore.html" role="link"> Explore </a-->
@@ -65,5 +66,9 @@
     //msg.style.visibility = "hidden";
     headerParagraphText.textContent = "Este sitio web es un recurso dedicado a talleres y módulos de formación creados por los equipos de Genesys. Los talleres le enseñarán cómo construir la base de una experiencia del cliente empática, proporcionada a través de la Experiencia como Servicio℠ (Experience as a Service℠). Si bien es posible gracias a la tecnología, la Experiencia como Servicio no se consigue únicamente a través de la tecnología. También es un compromiso que usted asume en toda su empresa por el bien de sus empleados, por el bien de sus clientes y por el bien de su empresa.";
     headlineText.textContent = "Experiencia como servicio℠";
+  }
+  else if(url.search('pt') > 0){
+    headerParagraphText.textContent = "Este site é um recurso dedicado para workshops selecionados e módulos de treinamento criados pelas equipes da Genesys. Os workshops ensinarão como construir a base de uma experiência empática para o cliente — fornecida por meio da Experiência como Serviço℠. Embora seja habilitada pela tecnologia, a experiência como serviço não acontece apenas por meio da tecnologia. É também um compromisso que você faz em toda a sua empresa para o bem de seus funcionários, para o bem de seus clientes e para o bem de seus negócios.";
+    headlineText.textContent = "Experiência como serviço℠";
   }
 </script>
