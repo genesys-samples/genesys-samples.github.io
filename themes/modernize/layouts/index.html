@@ -5,10 +5,10 @@
 <!-- main content section -->
 <main role="main" class="bg-gray">
   <!-- workshops section-->
-  <section class="spacer-inner-tb-30">
+  <!--<section class="spacer-inner-tb-30">
     <div class="container">
       <div class="row">
-        <!-- heading-->
+        
         <div class="col-12 col-xl-4 workshops-title">
           <h1 role="heading" class="title-1 underline-orange d-inline-block spacer-mob-heading" role="heading" id="workshopsTitle">
             Workshops</h1>
@@ -16,11 +16,11 @@
         <div class="col-12 col-xl-8 pt-sm-3 pt-xl-0">
         </div>
       </div>
-      <!--workshop items container-->
+      
       <div class="workshops-items-container">
 
         {{ range ( where .Site.RegularPages "Section" "card" ) }}
-        <!--  single workshop item section-->
+      
         <div class="row workshops-item grid-item">
           <div class="col-12 col-md-4 col-lg-3">
             <a target="_blank" href="{{ .Params.workshop_url }}" class="card" role="link">
@@ -31,12 +31,12 @@
             </a>
           </div>
           <div class="col-12 col-md-8 col-lg-9">
-            <!-- workshop item title -->
+            
             <h2 class="title-2 color-blue" role="heading">{{ .Title }}</h2>
-            <!-- workshop item benefits -->
+            
             <ul class="list-section" role="list">
               <li role="listitem"><i class="fas fa-tachometer-alt mr-2"></i>Level: {{ .Params.level }}</li>
-              <!-- categories with links-->
+             
               <li role="listitem"><i class="fas fa-check mr-2"></i>Categories:
               {{ range $taxonomy_term := .Params.categories}}
                 {{ with $.Site.GetPage $taxonomy_term}}
@@ -46,7 +46,7 @@
                 {{ end }}
               {{ end }}
             </li>
-            <!-- tag with links-->
+            
               <li role="listitem"><i class="fas fa-check mr-2"></i>Tags: 
               {{ range $taxonomy_term := .Params.tags}}
                 {{ with $.Site.GetPage $taxonomy_term}}  
@@ -58,13 +58,13 @@
               </li>
             </ul>
 
-            <!-- workshop item duration -->
+            
             <span role="timer"><i class="far fa-clock mr-2"></i>{{ .Params.duration }}</span>
-            <!-- workshop item summary-->
+            
             <p class="item-summary">
               {{ .Content }}
             </p>
-            <!-- workshop item get started button-->
+           
             <button onclick="window.location.href = '{{ .Params.workshop_url }}';" type="button"
               class="btn btn-standard" role="button">Get started</button>
           </div>
@@ -72,7 +72,7 @@
         {{ end }}
       </div>
     </div>
-  </section>
+  </section>-->
   <!-- featured modules section-->
 
 </main>
